@@ -25,7 +25,7 @@ function draw(){
         g=random(255);
         b=random(255);
         for(i=0;i<objects.length;i++){
-            document.getElementById("number_of_objects").innerHTML="Number of objects detected are : "+objects.length)
+            document.getElementById("number_of_objects").innerHTML="Number of objects detected are : "+objects.length;
                document.getElementById("status").innerHTML="Staus : Object Detected";
                fill(r,g,b);
                percent=floor(objects[i].confidence*100)+"%";
